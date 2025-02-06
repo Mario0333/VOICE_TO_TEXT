@@ -6,9 +6,7 @@ class SpeechModel:
         self.translation = translation if translation else ""
 
     def to_dict(self):
-        
-        #Convert the model instance into a dictionary.
-        
+                
         return {
             "text": self.text,
             "language": self.language,
